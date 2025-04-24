@@ -1,0 +1,5 @@
+# dossier => nom + /
+target/  
+.vscode/
+
+# Fichier => juste chemin nom+extension
