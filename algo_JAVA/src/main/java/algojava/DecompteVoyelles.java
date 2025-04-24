@@ -23,6 +23,12 @@ public class DecompteVoyelles {
         System.out.println("Il y a " + compteurVoyelles + " de voyelles dans la phrase.");
     }
 
+    /**
+     * Boolean pour déterminer si un caractère est ou non une voyelle
+     * 
+     * @param voyelle Détermine si c'est une voyelle
+     * @return Retourne les voyelles
+     */
     public static boolean isVoyelle(char voyelle) {
         String sansAccent = Normalizer.normalize(String.valueOf(voyelle), Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "").toLowerCase();
