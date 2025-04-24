@@ -24,6 +24,7 @@ public class DecompteMajuscules {
     }
 
     /**
+     * Boolean pour Déterminer si la lettre est en majuscule ou pas
      * 
      * @param majuscule // Détermine si le caractère est une majuscule ou non
      * @return // Retourne les caractères en majuscule
