@@ -12,6 +12,7 @@ public class RechercheIndices {
 
     }
 
+    // ✅ Bon algo 👍
     /**
      * Recherche des index Min (iMin) et max (iMax)
      * 

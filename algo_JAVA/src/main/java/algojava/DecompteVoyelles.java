@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class DecompteVoyelles {
 
+    // Le cahier des charges demandait une fonction qui compte le nombre de
+    // voyelle d'une chaine en entrée
+    // TODO respecter le cahier des charges
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
