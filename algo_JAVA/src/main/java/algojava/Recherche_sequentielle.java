@@ -1,6 +1,10 @@
 package algojava;
 
 public class Recherche_sequentielle {
+
+    // Les algo sont bons même si je n'aime pas sortir des boucles "violemment" par
+    // un return. C'est plus facilement maintenable en sortant de la boucle par la
+    // condition prévue
     public static void main(String[] args) {
 
         int[] array = { 10, 20, 30, 40, 50 };

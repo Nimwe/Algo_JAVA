@@ -26,6 +26,7 @@ public class Factorielle {
         scanner.close();
     }
 
+    // Il y a 2 boucles FOR dans ton algo entre la fonciton et le main
     public static int factorielle(int maxValue) {
         int fact = 1;
 

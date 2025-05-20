@@ -5,9 +5,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class JeuPlusouMoins {
+
+    // Tu peux remplacer les while par des Do/While puisque tu dois le faire au
+    // moins une fois. C'est plus facile au niveau des initialisations
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-       
+
         // Tirer un entier aleatoirement entre 1 et 100 => Random
         Random r = new Random();
         int n = r.nextInt(100) + 1;
