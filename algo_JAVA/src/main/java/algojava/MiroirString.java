@@ -10,9 +10,20 @@ public class MiroirString {
         String originale = scanner.nextLine();
         scanner.close();
 
-        String miroir = inverse(originale);
-        System.out.println("Votre phrase inversées est : " + miroir);
+        String inverse = miroir(originale);
+        System.out.println("Votre phrase inversées est : " + inverse);
     }
+
+
+
+
+    
+    // Modification du nom de la fonction pour que ça soit plus clair lors de la
+    // recuperation pour la palindrome
+
+
+
+
 
     /**
      * Fonction miroir pour parcourir la phrase originale à rebours
@@ -21,7 +32,7 @@ public class MiroirString {
      * @return L'entrée originale parcourue à rebour pour inverser le sens
      *         d'écriture
      */
-    public static String inverse(String originale) {
+    public static String miroir(String originale) {
         StringBuilder resultat = new StringBuilder();
 
         // Parcours de la string à l'envers
